@@ -1,4 +1,4 @@
-package yk.InterviewPreparationKit.Arrays;
+package yk.InterviewPreparationKit.CTCI_Chapter1_ArraysAndStrings;
 //https://www.hackerrank.com/challenges/2d-array/problem
 
 import java.util.Scanner;
@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class DArray {
 
-    static int hourglassSum(int[][] arr) {
+    private static int hourglassSum(int[][] arr) {
 
         int sum = -64;
         for(int i =0; i<4; i++){

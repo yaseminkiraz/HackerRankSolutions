@@ -1,12 +1,12 @@
-package yk.InterviewPreparationKit.WarmUpChallenges;
+package yk.InterviewPreparationKit.HarckerRank_WarmUpChallenges;
 //https://www.hackerrank.com/challenges/repeated-string/problem
 
 import java.util.Scanner;
 
 public class RepeatedString {
-    public static final char SMALL_CHAR = 'a';
+    private static final char SMALL_CHAR = 'a';
 
-    static long repeatedString(String s, long n) {
+    private static long repeatedString(String s, long n) {
         long totalCount = 0;
 
         for (int smallStrIndex=0;smallStrIndex<s.length();smallStrIndex++)

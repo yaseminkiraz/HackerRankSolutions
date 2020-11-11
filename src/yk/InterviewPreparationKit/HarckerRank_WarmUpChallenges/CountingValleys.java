@@ -1,10 +1,10 @@
-package yk.InterviewPreparationKit.WarmUpChallenges;
+package yk.InterviewPreparationKit.HarckerRank_WarmUpChallenges;
 //https://www.hackerrank.com/challenges/counting-valleys/problem
 
 import java.util.Scanner;
 
 public class CountingValleys {
-    static int countingValleys(int n, String s) {
+    private static int countingValleys(int n, String s) {
         int level = 0;
         int dCount = 0;
 

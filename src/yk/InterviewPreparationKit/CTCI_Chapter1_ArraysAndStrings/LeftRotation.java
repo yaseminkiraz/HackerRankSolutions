@@ -1,10 +1,10 @@
-package yk.InterviewPreparationKit.Arrays;
+package yk.InterviewPreparationKit.CTCI_Chapter1_ArraysAndStrings;
 //https://www.hackerrank.com/challenges/ctci-array-left-rotation/problem
 
 import java.util.Scanner;
 
 public class LeftRotation{
-    static int[] rotLeft(int[] a, int d) {
+    private static int[] rotLeft(int[] a, int d) {
         int n = a.length;
         int[] temp = new int[n];
         System.arraycopy(a, d, temp, 0, n-d);
@@ -30,8 +30,8 @@ public class LeftRotation{
 
         int[] result = rotLeft(a, d);
 
-        for (int i = 0; i < result.length; i++) {
-            System.out.println(result[i]);
+        for (int aResult : result) {
+            System.out.println(aResult);
         }
 
         scanner.close();
