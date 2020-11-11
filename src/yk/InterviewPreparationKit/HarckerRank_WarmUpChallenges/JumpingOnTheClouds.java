@@ -1,11 +1,11 @@
-package yk.InterviewPreparationKit.WarmUpChallenges;
+package yk.InterviewPreparationKit.HarckerRank_WarmUpChallenges;
 //https://www.hackerrank.com/challenges/jumping-on-the-clouds/problem
 
 import java.util.Scanner;
 
 public class JumpingOnTheClouds {
 
-    static int jumpingOnClouds(int[] c) {
+    private static int jumpingOnClouds(int[] c) {
         int jump = 0;
         for (int i = 0; i < c.length-1; i += 2, jump++)
             if (c[i] == 1) i--;

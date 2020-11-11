@@ -1,10 +1,10 @@
-package yk.InterviewPreparationKit.WarmUpChallenges;
+package yk.InterviewPreparationKit.HarckerRank_WarmUpChallenges;
 //https://www.hackerrank.com/challenges/sock-merchant/problem
 
 import java.util.*;
 
 public class SalesByMatch {
-    static int sockMerchant(int n, int[] ar) {
+    private static int sockMerchant(int n, int[] ar) {
         int pairCount=0;
 
         Set<Integer> socks = new HashSet<>();
