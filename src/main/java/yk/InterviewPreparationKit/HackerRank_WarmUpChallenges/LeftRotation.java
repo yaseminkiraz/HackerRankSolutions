@@ -1,4 +1,4 @@
-package yk.InterviewPreparationKit.CTCI_Chapter1_ArraysAndStrings;
+package yk.InterviewPreparationKit.HackerRank_WarmUpChallenges;
 //https://www.hackerrank.com/challenges/ctci-array-left-rotation/problem
 
 import java.util.Scanner;
