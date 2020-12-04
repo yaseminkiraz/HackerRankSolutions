@@ -73,7 +73,7 @@ public class ArrayListExample {
         Stream<Integer> streamOfCollection = list.stream();
         Optional<Integer> anyElement = streamOfCollection.filter(element -> element == 10).findAny();
 
-        System.out.println("Stream.filter().findAny(): " + anyElement.get());
+        System.out.println("Stream.filter().findAny(): " + (anyElement.isPresent() ? anyElement.get():""));
 
 //        List<String> collectorCollection =
                 arraylist.stream().map(Student::getName)
